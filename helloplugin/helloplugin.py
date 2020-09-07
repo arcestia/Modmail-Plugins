@@ -10,7 +10,7 @@ class HelloPlugin(commands.Cog):
             return
 
         if "masha" in message.content.lower():
-            await message.channel.send("Hello I'm his bot, if he didn't reply you can DM me. Thanks")
+            await message.channel.send("Hello I'm his bot, if he didn't reply you can DM me. Thanks. Ping <@!109653613193760768>")
         elif "yo" in message.content.lower():
             await message.channel.send("yo")
         elif "Good Morning" in message.content.lower():
