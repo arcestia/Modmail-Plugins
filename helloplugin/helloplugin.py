@@ -9,13 +9,13 @@ class HelloPlugin(commands.Cog):
         if message.author.bot:
             return
 
-        if "hello" in message.content.lower():
-            await message.channel.send("Hey")
+        if "masha" in message.content.lower():
+            await message.channel.send("Hello I'm his bot, if he didn't reply you can DM me. Thanks")
         elif "yo" in message.content.lower():
             await message.channel.send("yo")
-        elif "gm" in message.content.lower():
+        elif "Good Morning" in message.content.lower():
             await message.channel.send("Good Morning")
-        elif "gn" in message.content.lower():
+        elif "Good Night" in message.content.lower():
             await message.channel.send("Good Night")
         elif "good morning" in message.content.lower():
             await message.channel.send("Good Morning !")
